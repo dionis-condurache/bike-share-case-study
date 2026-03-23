@@ -3,7 +3,6 @@
 Tools: SQL (BigQuery)
 
 This project analyzes user behavior in a bike-share dataset to identify differences between casual and member riders and provide data-driven recommendations.
--------------------------------------------------------------------------------------
 
 Bike-Share Case Study: Casual vs Member Behavior
 
