@@ -7,25 +7,27 @@ This project analyzes user behavior in a bike-share dataset to identify differen
 
 Bike-Share Case Study: Casual vs Member Behavior
 
-Business Problem
+Business Problem:
 The objective of this analysis is to understand how casual riders differ from annual members and identify strategies to convert casual users into members. 
 
-Data Description
+Data Description:
 The dataset contains ride-level data including timestamps, station information, and user type (casual vs member).
 
-Process
+## Data Source
+
+The dataset used in this project is the Cyclistic bike-share dataset provided as part of the Google Data Analytics Capstone Case Study.
+
+It contains historical trip data including ride timestamps, station information, and user type classification (casual vs member).
+
+Due to size constraints, the raw dataset is not included in this repository.
+
+Process:
 Removed invalid records (negative or unrealistic ride durations)
-
-
 Calculated ride length using timestamp differences
-
-
 Extracted day of week and hour from ride timestamps
-
-
 Performed analysis using SQL in BigQuery
 
-Key Insights
+Key Insights:
 1. Ride Frequency
 Members generate a higher number of rides, indicating consistent and repeated usage.
 2. Ride Duration
@@ -34,7 +36,8 @@ Casual riders have longer average ride durations, suggesting they use the servic
 Casual riders are significantly more active on weekends, while members ride more consistently during weekdays.
 4. Daily Patterns
 Members show peak usage during commuting hours (morning and evening), whereas casual riders peak during midday hours.
-Recommendations
+
+Recommendations:
 Target weekend users:
  Introduce promotions during weekends when casual rider activity is highest
 
@@ -52,9 +55,5 @@ Use time-based incentives:
 Additional Opportunities for Analysis
 With more data, further analysis could include:
 User retention and repeat usage
-
-
 Conversion rates from casual to member
-
-
 Geographic usage patterns
